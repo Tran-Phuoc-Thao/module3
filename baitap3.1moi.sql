@@ -40,6 +40,7 @@ INSERT INTO mark (MarkID,SubID, StudentID, Mark, ExamTimes)
 VALUES (1,1, 1, 8, 1),
        (2,1, 2, 10, 2),
        (3,2, 1, 12, 1);
+alter table mark add foreign key(StudentID) references student(StudentID);
 -- cau 1
 select * 
 from student
