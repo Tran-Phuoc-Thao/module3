@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    height: 13vh;
+    background: black;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li {
+    float: left;
+    line-height: 13vh;
+    padding: 0 20px;
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+nav .button{
+    float: right;
+    margin: 25px;
+    line-height: 5vh;
+
+}
+nav .button button{
+    color: white;
+    background: black;
+    font-size: 20px;
+}
+aside{
+    background: beige;
+    height: 76vh;
+
+}
+aside ul {
+    padding: 30px;
+    text-decoration: none;
+}
+aside ul li {
+    line-height: 40px ;
+
+ }
+
+aside ul li button{
+    margin-top: 30px;
+    height: 50px;
+    width: 100px
+}
+
+
