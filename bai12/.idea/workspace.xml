@@ -5,37 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c526c9b-fe24-46e5-8598-35dbb83dbdeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bai12/Bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bai12/Controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bai12/Repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bai12/Repository/RepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/search1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/search2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/bai11/Bean/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/bai11/Controller/MainServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/bai11/Repository/IProductRep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/bai11/Repository/ProductRepImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Bean/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Bean/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/CategoryRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/ProductRepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Service/ProductServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/webapp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thi/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Bean/CongViec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Bean/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Repository/RepositoryImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Repository/RepositoryImp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai12/Controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai12/Controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bai12/Repository/RepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai12/Repository/RepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +81,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/module3/module3/bai12"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module3/module3/bai12&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\codegym\module3\module3\bai12\src\main\webapp" />
@@ -437,6 +445,12 @@
       <updated>1679656588906</updated>
       <workItem from="1679656590569" duration="5770000" />
       <workItem from="1679814590406" duration="7795000" />
+      <workItem from="1679913411080" duration="6850000" />
+      <workItem from="1679922216062" duration="1613000" />
+      <workItem from="1680261251631" duration="4820000" />
+      <workItem from="1680514390476" duration="1997000" />
+      <workItem from="1680519691786" duration="7373000" />
+      <workItem from="1680676802408" duration="6085000" />
     </task>
     <servers />
   </component>

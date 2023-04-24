@@ -11,9 +11,15 @@
     <h2>
         <a href="/users?action=create">Add New User</a>
     </h2>
-    <h2>
-        <a href="/users?action=search1">Search by name </a>
-    </h2>
+    <form action="/users" method="get" >
+        <table style="margin: auto">
+            <tr>
+                <td>Search by name</td>
+                <td><input type="text" name="name"></td>
+                <td><input type="submit" value="search1" name="action"></td>
+            </tr>
+        </table>
+    </form>
     <h2>
         <a href="/users?action=search2">Search by country </a>
     </h2>
@@ -37,7 +43,7 @@
                 <td><c:out value="${user.country}"/></td>
                 <td>
                     <a href="/users?action=edit&id=${user.id}">Edit</a>
-                    <a href="/users?action=delete&id=${user.id}">Delete</a>
+                    <a href="/users?action=delete&id=${user.id}" method="post">Delete</a>
                 </td>
             </tr>
         </c:forEach>

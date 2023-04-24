@@ -15,7 +15,7 @@ public class RepositoryImp {
             " (?, ?, ?);";
 
     private static final String SELECT_USER_BY_ID = "select id,name,email,country from users where id =?";
-    private static final String SELECT_USER_BY_NAME = "select id,name,email,country from users where name = ?";
+    private static final String SELECT_USER_BY_NAME = "select id,name,email,country from users where name like ?";
     private static final String SELECT_USER_BY_COUNTRY = "select id,name,email,country from users where country =?";
     private static final String SELECT_ALL_USERS = "select * from users";
     private static final String DELETE_USERS_SQL = "delete from users where id = ?;";
@@ -57,13 +57,13 @@ public class RepositoryImp {
 
     public User selectUser(int id) {
         User user = null;
-        // Step 1: Establishing a Connection
+        // Step 1: Thiết lập kết nối
         try (Connection connection = getConnection();
-             // Step 2:Create a statement using connection object
+             // Step 2:Tạo câu lệnh sử dụng đối tượng kết nối
             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_ID);) {
             preparedStatement.setInt(1, id);
             System.out.println(preparedStatement);
-            // Step 3: Execute the query or update query
+            // Step 3: Thực hiện truy vấn hoặc cập nhật truy vấn
             ResultSet rs = preparedStatement.executeQuery();
 
             // Step 4: Process the ResultSet object.
@@ -149,7 +149,7 @@ public class RepositoryImp {
         try (Connection connection = getConnection();
              // Step 2:Create a statement using connection object
              PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_NAME);) {
-            preparedStatement.setString(1, name);
+            preparedStatement.setString(1, name+"%");
             System.out.println(preparedStatement);
             // Step 3: Execute the query or update query
             ResultSet rs = preparedStatement.executeQuery();

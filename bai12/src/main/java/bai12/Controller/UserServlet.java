@@ -27,6 +27,8 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
         if (action == null) {
             action = "";
@@ -44,7 +46,7 @@ public class UserServlet extends HttpServlet {
                     deleteUser(request, response);
                     break;
                 case "search1":
-                    searchUser1(request,response);
+                    doSearch1(request,response);
                     break;
                 case "search2":
                     searchUser2(request,response);
@@ -62,12 +64,12 @@ public class UserServlet extends HttpServlet {
         request.getRequestDispatcher("search2.jsp").forward(request,response);
     }
 
-    private void searchUser1(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("search1.jsp").forward(request,response);
-    }
+
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
             String action = request.getParameter("action");
             if (action == null) {
                 action = "";
@@ -79,9 +81,6 @@ public class UserServlet extends HttpServlet {
                         break;
                     case "edit":
                         updateUser(request, response);
-                        break;
-                    case "search1":
-                        doSearch1(request,response);
                         break;
                     case "search2":
                         doSearch2(request,response);
@@ -103,7 +102,7 @@ public class UserServlet extends HttpServlet {
         String name = request.getParameter("name");
         List<User> userList = userDAO.selectUserByName(name);
         request.setAttribute("listUser", userList);
-        request.getRequestDispatcher("search1.jsp").forward(request,response);
+        request.getRequestDispatcher("list.jsp").forward(request,response);
 
     }
 
@@ -125,9 +124,9 @@ public class UserServlet extends HttpServlet {
             throws SQLException, ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         User existingUser = userDAO.selectUser(id);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("edit.jsp");
+
         request.setAttribute("user", existingUser);
-        dispatcher.forward(request, response);
+        request.getRequestDispatcher("edit.jsp").forward(request,response);
 
     }
 
@@ -148,7 +147,6 @@ public class UserServlet extends HttpServlet {
         String name = request.getParameter("name");
         String email = request.getParameter("email");
         String country = request.getParameter("country");
-
         User book = new User(id, name, email, country);
         userDAO.updateUser(book);
         RequestDispatcher dispatcher = request.getRequestDispatcher("edit.jsp");
@@ -159,7 +157,6 @@ public class UserServlet extends HttpServlet {
             throws SQLException, IOException, ServletException {
         int id = Integer.parseInt(request.getParameter("id"));
         userDAO.deleteUser(id);
-
         List<User> listUser = userDAO.selectAllUsers();
         request.setAttribute("listUser", listUser);
         RequestDispatcher dispatcher = request.getRequestDispatcher("list.jsp");
