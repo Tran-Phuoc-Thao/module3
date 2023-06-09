@@ -27,12 +27,7 @@ public class Servlet extends HttpServlet {
         try {
 
             switch (action) {
-                case "create":
-                    showCreat(request, response);
-                    break;
-                case "edit":
-                    showEditForm(request, response);
-                    break;
+
                 case "delete":
                     delete(request, response);
                     break;
@@ -62,30 +57,26 @@ public class Servlet extends HttpServlet {
         serviceChinh.delete(id);
         List<Product> list = serviceChinh.findAll();
         request.setAttribute("list",list);
+        List<Category> list1 = servicePhuImp.selectAll() ;
+        request.setAttribute("list1",list1);
         request.getRequestDispatcher("list.jsp").forward(request,response);
-    }
-
-    private void showEditForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Category> list = servicePhuImp.selectAll();
-        request.setAttribute("list",list);
-        int id = Integer.parseInt(request.getParameter("id"));
-        Product product = serviceChinh.select(id);
-        request.setAttribute("product",product);
-        request.getRequestDispatcher("edit.jsp").forward(request,response);
 
     }
+
 
     private void listProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Product> list =serviceChinh.findAll();
         request.setAttribute("list", list);
+        List<Category> list1 = servicePhuImp.selectAll() ;
+        request.setAttribute("list1",list1);
         request.getRequestDispatcher("list.jsp").forward(request,response);
     }
 
-    private void showCreat(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Category> list = servicePhuImp.selectAll() ;
-        request.setAttribute("list",list);
-        request.getRequestDispatcher("create.jsp").forward(request,response);
-    }
+//    private void showCreat(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        List<Category> list = servicePhuImp.selectAll() ;
+//        request.setAttribute("list",list);
+//        request.getRequestDispatcher("create.jsp").forward(request,response);
+//    }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -120,8 +111,10 @@ public class Servlet extends HttpServlet {
             Category category = servicePhuImp.select(idType);
             Product product = new Product(id,name,gia,soLuong,mauSac,moTa,category);
             serviceChinh.update(product);
-            List<Product> list = serviceChinh.findAll();
-            request.setAttribute("list",list);
+            List<Product> list =serviceChinh.findAll();
+            request.setAttribute("list", list);
+            List<Category> list1 = servicePhuImp.selectAll() ;
+            request.setAttribute("list1",list1);
             request.getRequestDispatcher("list.jsp").forward(request,response);
     }
 
@@ -137,6 +130,8 @@ public class Servlet extends HttpServlet {
             serviceChinh.insert(product);
             List<Product> list = serviceChinh.findAll();
             request.setAttribute("list",list);
+            List<Category> list1 = servicePhuImp.selectAll();
+            request.setAttribute("list1",list1);
             request.getRequestDispatcher("list.jsp").forward(request,response);
     }
 }

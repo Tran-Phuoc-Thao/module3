@@ -5,45 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c526c9b-fe24-46e5-8598-35dbb83dbdeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../thi/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Bean/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Bean/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Controller/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/CategoryRepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Repository/ProductRepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/java/Service/ProductServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/webapp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/webapp/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thi/src/main/webapp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Bean/CongViec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Bean/NhanVien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Controller/Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Repository/RepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/java/Repository/RepositoryImp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thithu/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChuyenDoiTienTe/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChuyenDoiTienTe/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChuyenDoiTienTe/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/java/bean/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/java/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/java/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/java/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/webapp/WEB-INF/view/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/webapp/WEB-INF/view/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoanhlinh2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Bean/UserAndRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Repository/RepositoryRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Repository/RepositoryUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Repository/RepositoryUserAndRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Service/ServiceRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Service/ServiceUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/java/Service/ServiceUserAndRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Bean/KieuThue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Bean/PhongTro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Controller/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Repository/RepositoryKieuThue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Repository/RepositoryKieuThueImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Repository/RepositoryPhongTro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Repository/RepositoryPhongTroImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Service/ServiceKieuThue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Service/ServiceKieuThueImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Service/ServicePhongTro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/java/Service/ServicePhongTroImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thimodule3/src/main/webapp/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bai12/Controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai12/Controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bai12/Repository/RepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bai12/Repository/RepositoryImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baichuan/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baichuan/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/src/webHoatHinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../css/src/webHoatHinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thilan2/src/main/java/Controller/Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thilan2/src/main/java/Controller/Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thilan2/src/main/webapp/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thilan2/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../thilan2/src/main/webapp/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -451,6 +467,9 @@
       <workItem from="1680514390476" duration="1997000" />
       <workItem from="1680519691786" duration="7373000" />
       <workItem from="1680676802408" duration="6085000" />
+      <workItem from="1685756449251" duration="328000" />
+      <workItem from="1685867772979" duration="141000" />
+      <workItem from="1686144933179" duration="218000" />
     </task>
     <servers />
   </component>
